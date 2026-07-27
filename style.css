@@ -257,13 +257,12 @@ body {
     transform: scale(1.25) rotate(10deg);
 }
 .side-photos {
-    position: absolute;
-    top: 80px;
-    left: 0;
+    position: relative;
     width: 100%;
-    pointer-events: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
 }
-
 .side-left,
 .side-right {
     position: absolute;
@@ -298,6 +297,7 @@ body {
 
 .tilt-right {
     transform: rotate(8deg);
+}
 .side-photos img {
     transition: 0.3s ease;
 }
