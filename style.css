@@ -335,3 +335,31 @@ body {
 .final-message {
     display: none;
 }
+@media (max-width: 768px) {
+
+    .side-photos {
+        position: static;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+
+    .side-left,
+    .side-right {
+        display: contents;
+    }
+
+    .side-photos img {
+        width: 120px;
+        margin: 5px;
+    }
+
+    .hello,
+    .birthday,
+    .subtitle {
+        position: relative;
+        z-index: 2;
+    }
+}
