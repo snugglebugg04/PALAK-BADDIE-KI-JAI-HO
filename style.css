@@ -310,29 +310,63 @@ body {
 }
 @media (max-width: 768px) {
 
-    .side-photos {
-        position: static;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
-        margin-bottom: 20px;
+    body{
+        padding: 25px 15px;
+    }
+
+    .hello{
+        font-size: 22px;
+        margin-top: 10px;
+    }
+
+    .birthday{
+        font-size: 42px;
+        line-height: 1.15;
+    }
+
+    .subtitle{
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .cake{
+        font-size:50px;
+        margin:20px 0;
+    }
+
+    .surprise-btn,
+    .music-btn{
+        width:170px;
+        margin:8px;
+    }
+
+    .side-photos{
+        position:static;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:12px;
+        margin:35px 0;
     }
 
     .side-left,
-    .side-right {
-        display: contents;
+    .side-right{
+        display:contents;
     }
 
-    .side-photos img {
-        width: 120px;
-        margin: 5px;
+    .side-photos img{
+        width:120px;
+        height:150px;
     }
 
-    .hello,
-    .birthday,
-    .subtitle {
-        position: relative;
-        z-index: 2;
+    .letter,
+    .final-message{
+        padding:25px;
+        margin:30px auto;
     }
+
+    .memory-video{
+        width:100%;
+    }
+
 }
